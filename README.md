@@ -15,13 +15,10 @@ The main dependencies include:
 - torch, torchvision  
 - obspy, tqdm  
 
-Install all dependencies with:
-```bash
-pip install -r requirements.txt
 ## How to Run
 Open the notebook and run all cells in order:
-```bash
 jupyter notebook earthquake_models.ipynb
+
 ## Data
 Seismic waveform data are obtained from the [IRIS](https://www.iris.edu/hq/) platform. Example preprocessing and download code are included in the notebook.  
 
